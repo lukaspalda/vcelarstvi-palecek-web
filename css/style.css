@@ -184,14 +184,16 @@ a:hover { color: var(--primary-hover); }
 }
 .hero-logo {
     margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
 }
 .hero-logo img {
     height: 90px;
     width: auto;
+    display: block;
 }
 .hero-logo img.hero-logo-color {
-    filter: none;
-    drop-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    filter: drop-shadow(0 2px 12px rgba(0,0,0,0.3));
 }
 .hero-title {
     font-size: clamp(2.5rem, 6vw, 4rem);
