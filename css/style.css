@@ -17,8 +17,8 @@
     /* Light theme */
     --bg: #ffffff;
     --bg-alt: #FAFAF7;
-    --bg-dark: #3D2B1A;
-    --bg-dark-2: #4A3422;
+    --bg-dark: #5C3D24;
+    --bg-dark-2: #6B4D33;
     --surface: #ffffff;
     --text: #1F2937;
     --text-muted: #6B7280;
@@ -259,13 +259,13 @@ a:hover { color: var(--primary-hover); }
 .wave-divider svg {
     display: block;
     width: 100%;
-    height: 60px;
+    height: 90px;
 }
 @media (max-width: 768px) {
-    .wave-divider svg { height: 40px; }
+    .wave-divider svg { height: 60px; }
 }
 @media (max-width: 480px) {
-    .wave-divider svg { height: 28px; }
+    .wave-divider svg { height: 42px; }
 }
 
 /* ═══ ABOUT ═══ */
