@@ -436,6 +436,27 @@ a:hover { color: var(--primary-hover); }
 .lecture-table tbody tr:hover { background: rgba(212, 168, 67, 0.05); }
 .lecture-table tbody tr:last-child td { border-bottom: none; }
 
+/* Odkazy u přednášek */
+.lecture-link {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    background: rgba(232, 160, 32, 0.15);
+    color: var(--primary);
+    transition: all var(--transition);
+    margin-left: 4px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.lecture-link:hover {
+    background: var(--primary);
+    color: var(--white);
+    transform: scale(1.05);
+}
+
 .lectures-links {
     margin-top: 40px;
     padding: 24px;
