@@ -57,8 +57,8 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#o-mne" class="nav-link">O mně</a></li>
                 <li><a href="#produkty" class="nav-link">Produkty</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
                 <li><a href="#prednasky" class="nav-link">Přednášky</a></li>
-                <li><a href="#oceneni" class="nav-link">Ocenění</a></li>
                 <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
             </ul>
             <div class="nav-actions">
@@ -72,7 +72,9 @@
     <!-- ═══ HERO — Fullscreen Video Background ═══ -->
     <section class="hero" id="hero">
         <div class="hero-video-bg">
-            <iframe src="https://drive.google.com/file/d/18BPiw5Ac4dN9-nzbKHvVqhb4umL2D6R9/preview" title="Včelařství Paleček — video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <video autoplay muted loop playsinline preload="auto" poster="img/stanoviste1.jpg">
+                <source src="video/hero-web.mp4" type="video/mp4">
+            </video>
             <div class="hero-overlay"></div>
         </div>
         <div class="container">
@@ -1583,6 +1585,196 @@
                     <div class="award-icon">🎓</div>
                     <h3>Certifikovaný učitel</h3>
                     <p>Učitel včelařství ČSV z.s. a SOUv Nasavrky. Absolvent tříletého studia oboru včelař.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOTOGALERIE ═══ -->
+    <section class="section section-alt" id="galerie">
+        <div class="container">
+            <h2 class="section-title">Fotogalerie</h2>
+            <p class="section-subtitle">Nahlédněte do světa našeho včelařství</p>
+
+            <!-- Gallery filter tabs -->
+            <div class="gallery-tabs">
+                <button class="gallery-tab active" data-filter="all">Vše</button>
+                <button class="gallery-tab" data-filter="stanoviste">Stanoviště</button>
+                <button class="gallery-tab" data-filter="med">Med</button>
+                <button class="gallery-tab" data-filter="medovina">Medovina</button>
+                <button class="gallery-tab" data-filter="svicky">Svíčky</button>
+                <button class="gallery-tab" data-filter="darkove">Dárky</button>
+                <button class="gallery-tab" data-filter="ostatni">Ostatní</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Stanoviště -->
+                <div class="gallery-item" data-category="stanoviste" data-animate>
+                    <img src="img/gallery/gallery-stanoviste-1.jpg" alt="Stanoviště Kolence" loading="lazy">
+                    <div class="gallery-caption">Stanoviště Kolence</div>
+                </div>
+                <div class="gallery-item" data-category="stanoviste" data-animate>
+                    <img src="img/gallery/gallery-stanoviste-2.jpg" alt="Kočovné stanoviště Jednoty" loading="lazy">
+                    <div class="gallery-caption">Kočovné stanoviště</div>
+                </div>
+                <div class="gallery-item" data-category="stanoviste" data-animate>
+                    <img src="img/gallery/gallery-stanoviste-3.jpg" alt="Včelařské stanoviště" loading="lazy">
+                    <div class="gallery-caption">Naše včelstva</div>
+                </div>
+                <div class="gallery-item" data-category="stanoviste" data-animate>
+                    <img src="img/stanoviste1.jpg" alt="Stanoviště u Novosedel" loading="lazy">
+                    <div class="gallery-caption">Stanoviště u Novosedel</div>
+                </div>
+                <div class="gallery-item" data-category="stanoviste" data-animate>
+                    <img src="img/stanoviste3.jpg" alt="Zimní stanoviště" loading="lazy">
+                    <div class="gallery-caption">Zimní příprava</div>
+                </div>
+
+                <!-- Med -->
+                <div class="gallery-item" data-category="med" data-animate>
+                    <img src="img/gallery/gallery-med-1.jpg" alt="Květový med ve sklenici" loading="lazy">
+                    <div class="gallery-caption">Květový med</div>
+                </div>
+                <div class="gallery-item" data-category="med" data-animate>
+                    <img src="img/gallery/gallery-med-2.jpg" alt="Med z Třeboňska" loading="lazy">
+                    <div class="gallery-caption">Med z Třeboňska</div>
+                </div>
+                <div class="gallery-item" data-category="med" data-animate>
+                    <img src="img/gallery/gallery-med-3.jpg" alt="Lesní med" loading="lazy">
+                    <div class="gallery-caption">Lesní medovicový med</div>
+                </div>
+                <div class="gallery-item" data-category="med" data-animate>
+                    <img src="img/honey-flower.jpg" alt="Květový med etiketa" loading="lazy">
+                    <div class="gallery-caption">Květový med — etiketa</div>
+                </div>
+
+                <!-- Medovina -->
+                <div class="gallery-item" data-category="medovina" data-animate>
+                    <img src="img/gallery/gallery-medovina-1.jpg" alt="Medovina 0,5l" loading="lazy">
+                    <div class="gallery-caption">Medovina 0,5 l</div>
+                </div>
+                <div class="gallery-item" data-category="medovina" data-animate>
+                    <img src="img/gallery/gallery-medovina-2.jpg" alt="Medovina 1l" loading="lazy">
+                    <div class="gallery-caption">Medovina 1 l</div>
+                </div>
+
+                <!-- Svíčky -->
+                <div class="gallery-item" data-category="svicky" data-animate>
+                    <img src="img/gallery/gallery-svicky-1.jpg" alt="Sortiment voskových svíček" loading="lazy">
+                    <div class="gallery-caption">Sortiment svíček</div>
+                </div>
+                <div class="gallery-item" data-category="svicky" data-animate>
+                    <img src="img/gallery/gallery-svicky-2.jpg" alt="Borová šiška — svíčka" loading="lazy">
+                    <div class="gallery-caption">Borová šiška</div>
+                </div>
+                <div class="gallery-item" data-category="svicky" data-animate>
+                    <img src="img/gallery/gallery-svicky-3.jpg" alt="Plovoucí svíčka květ" loading="lazy">
+                    <div class="gallery-caption">Plovoucí svíčka</div>
+                </div>
+                <div class="gallery-item" data-category="svicky" data-animate>
+                    <img src="img/gallery/gallery-svicky-4.jpg" alt="Voskové svíčky kolekce" loading="lazy">
+                    <div class="gallery-caption">Nová kolekce</div>
+                </div>
+
+                <!-- Dárkové balení -->
+                <div class="gallery-item" data-category="darkove" data-animate>
+                    <img src="img/gallery/gallery-darkove-1.jpg" alt="Dárkové balení medu" loading="lazy">
+                    <div class="gallery-caption">Dárkové balení</div>
+                </div>
+                <div class="gallery-item" data-category="darkove" data-animate>
+                    <img src="img/gallery/gallery-darkove-2.jpg" alt="Dárkový set" loading="lazy">
+                    <div class="gallery-caption">Dárkový set</div>
+                </div>
+                <div class="gallery-item" data-category="darkove" data-animate>
+                    <img src="img/gallery/gallery-darkove-3.jpg" alt="Dárkový koš" loading="lazy">
+                    <div class="gallery-caption">Dárkový koš</div>
+                </div>
+
+                <!-- Ostatní — medomet, kára, praxe -->
+                <div class="gallery-item" data-category="ostatni" data-animate>
+                    <img src="img/gallery/gallery-medomet-1.jpg" alt="Medomet" loading="lazy">
+                    <div class="gallery-caption">Náš medomet</div>
+                </div>
+                <div class="gallery-item" data-category="ostatni" data-animate>
+                    <img src="img/gallery/gallery-medomet-2.jpg" alt="Detail medometu" loading="lazy">
+                    <div class="gallery-caption">Detail medometu</div>
+                </div>
+                <div class="gallery-item" data-category="ostatni" data-animate>
+                    <img src="img/gallery/gallery-kara-1.jpg" alt="Kára na převoz včel" loading="lazy">
+                    <div class="gallery-caption">Kára na převoz</div>
+                </div>
+                <div class="gallery-item" data-category="ostatni" data-animate>
+                    <img src="img/gallery/gallery-kara-2.jpg" alt="Přepravní kára" loading="lazy">
+                    <div class="gallery-caption">Přepravní kára</div>
+                </div>
+                <div class="gallery-item" data-category="ostatni" data-animate>
+                    <img src="img/gallery/gallery-ostatni-1.jpg" alt="Včelařská praxe" loading="lazy">
+                    <div class="gallery-caption">Z naší praxe</div>
+                </div>
+                <div class="gallery-item" data-category="ostatni" data-animate>
+                    <img src="img/gallery/gallery-ostatni-2.jpg" alt="Včelařství" loading="lazy">
+                    <div class="gallery-caption">Včelařský den</div>
+                </div>
+            </div>
+
+            <!-- Lightbox -->
+            <div class="lightbox" id="lightbox">
+                <button class="lightbox-close" id="lightbox-close">&times;</button>
+                <button class="lightbox-prev" id="lightbox-prev">&#10094;</button>
+                <button class="lightbox-next" id="lightbox-next">&#10095;</button>
+                <img class="lightbox-img" id="lightbox-img" src="" alt="">
+                <div class="lightbox-caption" id="lightbox-caption"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ VIDEA ═══ -->
+    <section class="section" id="videa">
+        <div class="container">
+            <h2 class="section-title">Videa z včelařství</h2>
+            <p class="section-subtitle">Naučná videa z naší praxe</p>
+            <div class="videos-grid">
+                <div class="video-card" data-animate>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/fvrZbhlcVGA" title="Pastování medu" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Pastování medu</h3>
+                    <p>Ukázka výroby krémového pastového medu řízenou krystalizací.</p>
+                </div>
+                <div class="video-card" data-animate>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/0yAZ8Cir_JQ" title="Získávání vosku" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Získávání vosku</h3>
+                    <p>Získávání včelího vosku pomocí kotle a ždímačky.</p>
+                </div>
+                <div class="video-card" data-animate>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/m2Qy45PVnRM" title="Kvašení medoviny" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Kvašení medoviny</h3>
+                    <p>Proces výroby domácí medoviny z kvalitního medu.</p>
+                </div>
+                <div class="video-card" data-animate>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/UEaiHAEi_a4" title="Výroba svíček" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Výroba svíček</h3>
+                    <p>Ukázka odlévání svíček z čistého včelího vosku u nás doma.</p>
+                </div>
+                <div class="video-card" data-animate>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/0nQW0ZhM6V4" title="Včelařský vůz" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Stavba včelařského vozu</h3>
+                    <p>Jak jsem dělal včelařský vůz pro přepravu včelstev.</p>
+                </div>
+                <div class="video-card" data-animate>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/cnrqZ53VXc0" title="Nový medomet" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Nový medomet</h3>
+                    <p>Představení nového automatického medometu pro vytáčení medu.</p>
                 </div>
             </div>
         </div>
