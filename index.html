@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Včelařství Paleček — Med a včelí produkty z Třeboňska</title>
+    <meta name="description" content="Včelařství Paleček — kvalitní český med, medovina a včelí produkty z CHKO Třeboňsko. Přednášky, vzdělávací akce a Medové snídaně pro školy.">
+    <meta name="keywords" content="včely, med, medovina, propolis, vosk, Jindřichův Hradec, Třeboňsko, včelařství, přednášky, vzdělávání">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Včelařství Paleček">
+    <meta property="og:description" content="Kvalitní český med a včelí produkty z CHKO Třeboňsko. Vzdělávací přednášky a Medové snídaně.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wz-vcelarstvi-palecek.netlify.app">
+    <meta property="og:image" content="https://wz-vcelarstvi-palecek.netlify.app/img/og-image.png">
+
+    <link rel="canonical" href="https://wz-vcelarstvi-palecek.netlify.app/">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Theme flash prevention -->
+    <script>
+        (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark')})();
+    </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Včelařství Paleček",
+        "description": "Kvalitní český med, medovina a včelí produkty z CHKO Třeboňsko",
+        "url": "https://wz-vcelarstvi-palecek.netlify.app",
+        "telephone": "+420777269269",
+        "email": "mpalecek@cst.cz",
+        "image": "https://wz-vcelarstvi-palecek.netlify.app/img/og-image.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Nuslova 42/V",
+            "addressLocality": "Jindřichův Hradec",
+            "postalCode": "377 01",
+            "addressCountry": "CZ"
+        },
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 08:00-18:00"
+    }
+    </script>
+</head>
+<body>
+    <a href="#hero" class="skip-nav">Přeskočit na obsah</a>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">🐝 Včelařství Paleček</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#o-mne" class="nav-link">O mně</a></li>
+                <li><a href="#produkty" class="nav-link">Produkty</a></li>
+                <li><a href="#prednasky" class="nav-link">Přednášky</a></li>
+                <li><a href="#oceneni" class="nav-link">Ocenění</a></li>
+                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Přepnout tmavý/světlý režim">
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/></svg>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">🍯 CHKO Třeboňsko</span>
+                <h1 class="hero-title">Včelařství Paleček</h1>
+                <p class="hero-subtitle">Kvalitní český med a včelí produkty</p>
+                <p class="hero-text">Včelaříme s láskou v srdci jižních Čech, v&nbsp;chráněné krajinné oblasti Třeboňsko. Nabízíme med, medovinu, propolis a pořádáme vzdělávací přednášky po celé republice.</p>
+                <div class="hero-cta">
+                    <a href="#produkty" class="btn btn-primary">Naše produkty</a>
+                    <a href="#prednasky" class="btn btn-outline">Přednášky 2026</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <strong>17+</strong>
+                        <span>let zkušeností</span>
+                    </div>
+                    <div class="hero-stat">
+                        <strong>100+</strong>
+                        <span>přednášek ročně</span>
+                    </div>
+                    <div class="hero-stat">
+                        <strong>30+</strong>
+                        <span>včelstev</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ O MNĚ ═══ -->
+    <section class="section" id="o-mne">
+        <div class="container">
+            <h2 class="section-title">O mně</h2>
+            <p class="section-subtitle">Martin Paleček — včelař, lektor a soudce Zlaté včely</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Začal jsem včelařit v&nbsp;roce 2008 s&nbsp;pěti včelstvy v&nbsp;katastru obce Novosedly nad Nežárkou, nedaleko rybníka Rožmberk, v&nbsp;nadmořské výšce 480 metrů. Dnes mám přes 30 včelstev a&nbsp;věnuji se nejen produkci medu, ale hlavně vzdělávání.</p>
+                    <p>Jsem absolventem tříletého dálkového studia na SOUv Nasavrky v&nbsp;oboru včelař. Působím jako <strong>certifikovaný učitel včelařství ČSV</strong> a&nbsp;pravidelný <strong>rozhodčí soutěže Zlatá včela</strong>. Přednáším po celé České republice a&nbsp;organizuji krajský aktiv v&nbsp;Dubném.</p>
+                    <p>V rámci projektu Ministerstva zemědělství <strong>Medové snídaně</strong> navštěvuji mateřské a&nbsp;základní školy, kde dětem přibližuji svět včel a&nbsp;význam opylování.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">2008</span>
+                            <span class="stat-label">začátek včelaření</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">včelstev</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">let přednášek</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://placehold.co/600x400/D4A843/ffffff?text=Martin+Pale%C4%8Dek" alt="Martin Paleček — včelař" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PRODUKTY ═══ -->
+    <section class="section section-alt" id="produkty">
+        <div class="container">
+            <h2 class="section-title">Naše produkty</h2>
+            <p class="section-subtitle">Přímo od včelaře z&nbsp;CHKO Třeboňsko</p>
+            <div class="products-grid">
+                <div class="product-card" data-animate>
+                    <div class="product-icon">🍯</div>
+                    <h3>Květový med</h3>
+                    <p class="product-desc">Světle hnědý med s&nbsp;jemnou chutí. Po krystalizaci nabývá žlutého odstínu. Bohatý na enzymy, vitamíny a&nbsp;minerály.</p>
+                    <div class="product-price">180 Kč/kg</div>
+                    <span class="product-status available">Skladem</span>
+                </div>
+                <div class="product-card" data-animate>
+                    <div class="product-icon">🌲</div>
+                    <h3>Lesní med</h3>
+                    <p class="product-desc">Tmavě hnědý medovicový med. Krystalizace trvá 3–4 měsíce. Výrazná chuť s&nbsp;vyšším obsahem minerálů.</p>
+                    <div class="product-price">180 Kč/kg</div>
+                    <span class="product-status soldout">Vyprodáno</span>
+                </div>
+                <div class="product-card" data-animate>
+                    <div class="product-icon">🧈</div>
+                    <h3>Pastový med</h3>
+                    <p class="product-desc">Med s&nbsp;řízenou krystalizací — krémová konzistence, snadné roztírání. Jemný a&nbsp;lahodný na chuť.</p>
+                    <div class="product-price">200 Kč/kg</div>
+                    <span class="product-status soldout">Vyprodáno</span>
+                </div>
+                <div class="product-card" data-animate>
+                    <div class="product-icon">🍷</div>
+                    <h3>Medovina</h3>
+                    <p class="product-desc">Ryze přírodní medové víno bez barviv. Vyráběna z&nbsp;kvalitního včelího medu z&nbsp;CHKO Třeboňsko.</p>
+                    <div class="product-price">od 90 Kč / 0,5 l</div>
+                    <span class="product-status available">Skladem</span>
+                </div>
+                <div class="product-card" data-animate>
+                    <div class="product-icon">💊</div>
+                    <h3>Propolis</h3>
+                    <p class="product-desc">Propolisová tinktura v&nbsp;60% lihu. Přírodní antibiotikum s&nbsp;protizánětlivými účinky. Vlastní výroba.</p>
+                    <div class="product-price">Na dotaz</div>
+                    <span class="product-status available">Skladem</span>
+                </div>
+                <div class="product-card" data-animate>
+                    <div class="product-icon">🕯️</div>
+                    <h3>Voskové svíčky</h3>
+                    <p class="product-desc">Ručně odlévané svíčky z&nbsp;čistého včelího vosku. Krásná vůně a&nbsp;dlouhá doba hoření.</p>
+                    <div class="product-price">Dle velikosti</div>
+                    <span class="product-status soldout">Momentálně v přípravě</span>
+                </div>
+            </div>
+            <div class="products-note">
+                <p>📦 <strong>Objednávky:</strong> telefonicky na <a href="tel:+420777269269">777 269 269</a> nebo emailem na <a href="mailto:mpalecek@cst.cz">mpalecek@cst.cz</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PŘEDNÁŠKY ═══ -->
+    <section class="section section-dark" id="prednasky">
+        <div class="container">
+            <h2 class="section-title">Přednášková činnost</h2>
+            <p class="section-subtitle">Vzdělávací akce, Medové snídaně a soutěže po celé ČR</p>
+
+            <div class="lectures-intro">
+                <div class="lecture-type">
+                    <span class="lecture-badge badge-edu">📚 Vzdělávací akce</span>
+                    <p>Přednášky pro základní organizace ČSV a včelařské spolky</p>
+                </div>
+                <div class="lecture-type">
+                    <span class="lecture-badge badge-honey">🍯 Medové snídaně</span>
+                    <p>Projekt Ministerstva zemědělství — návštěvy MŠ a ZŠ</p>
+                </div>
+                <div class="lecture-type">
+                    <span class="lecture-badge badge-event">🏆 Akce a soutěže</span>
+                    <p>Zlatá včela, Czech Food Expo, Země živitelka, krajské aktivy</p>
+                </div>
+            </div>
+
+            <!-- Rok 2026 -->
+            <div class="lecture-year" data-animate>
+                <h3 class="year-title">
+                    <span class="year-number">2026</span>
+                    <span class="year-badge current">Aktuální</span>
+                </h3>
+                <div class="lecture-table-wrapper">
+                    <table class="lecture-table">
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Místo</th>
+                                <th>Typ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">1. 2. 2026 (ne)</td>
+                                <td data-label="Místo">ZO Nová Cerekev</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">6. 2. 2026 (pá)</td>
+                                <td data-label="Místo">ZO Chotoviny</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21. 2. 2026 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">28. 2. 2026 (so)</td>
+                                <td data-label="Místo">ZO České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">1. 3. 2026 (ne)</td>
+                                <td data-label="Místo">ZO Rožná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8. 3. 2026 (ne)</td>
+                                <td data-label="Místo">ZO Dírná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 3. 2026 (so)</td>
+                                <td data-label="Místo">ZO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">15. 3. 2026 (ne)</td>
+                                <td data-label="Místo">ZO Třeboň</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2025 -->
+            <div class="lecture-year" data-animate>
+                <h3 class="year-title">
+                    <span class="year-number">2025</span>
+                </h3>
+                <div class="lecture-table-wrapper">
+                    <table class="lecture-table">
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Místo</th>
+                                <th>Typ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">12. 1. 2025 (ne)</td>
+                                <td data-label="Místo">ZO Počátky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">19. 1. 2025 (ne)</td>
+                                <td data-label="Místo">SOUv Nasavrky — učitelé</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 2. 2025 (ne)</td>
+                                <td data-label="Místo">ZO Dolní Kralovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">22. 2. 2025 (so)</td>
+                                <td data-label="Místo">ZO Strmilov / ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 3. 2025 (so)</td>
+                                <td data-label="Místo">ZO Soběslav — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">26. 4. 2025 (so)</td>
+                                <td data-label="Místo">Č. Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — OK</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 5. 2025 (pá)</td>
+                                <td data-label="Místo">Senožaty</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — OK</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14.–18. 5. 2025</td>
+                                <td data-label="Místo">Czech Food Expo Č. Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">26.–29. 5. 2025</td>
+                                <td data-label="Místo">MŠ Dušejov, ZŠ Majdalena, MŠ Hartíkovice, MŠ Jihlava</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">5.–8. 6. 2025</td>
+                                <td data-label="Místo">Celostátní kolo Zlaté včely</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Rozhodčí</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11.–12. 6. 2025</td>
+                                <td data-label="Místo">MŠ Sedmikráska Č. Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20.–26. 8. 2025</td>
+                                <td data-label="Místo">Země živitelka Č. Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">16.–18. 9. 2025</td>
+                                <td data-label="Místo">ZŠ Zimutice, MŠ Nadějkov, MŠ Nové Dvory</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4.–5. 10. 2025</td>
+                                <td data-label="Místo">ZO Batelov, Krajský aktiv Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8.–10. 10. 2025</td>
+                                <td data-label="Místo">ZŠ Sezimovo Ústí, MŠ Okrouhlice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11.–12. 10. 2025</td>
+                                <td data-label="Místo">ZO Rataje n. Sáz., ZO Počátky — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 11. 2025 (pá)</td>
+                                <td data-label="Místo">ZO Nová Bystřice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 12. 2025 (ne)</td>
+                                <td data-label="Místo">ZO Vlašim</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2024 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2024</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Místo</th>
+                                <th>Typ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">17. 2. 2024 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20. 2. 2024 (út)</td>
+                                <td data-label="Místo">OO Tábor</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 2. 2024 (so)</td>
+                                <td data-label="Místo">ZO Soběslav</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9. 3. 2024 (so)</td>
+                                <td data-label="Místo">ZO Mladošovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9.–12. 5. 2024</td>
+                                <td data-label="Místo">Czech Food Expo Č. Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21.–23. 5. 2024</td>
+                                <td data-label="Místo">ZŠ Český Krumlov, ZŠ Máj ČB, MŠ Trhové Sviny</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">28.–31. 5. 2024</td>
+                                <td data-label="Místo">MŠ/ZŠ Bambi Humpolec, MŠ Na Rybníčku</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 8. 2024</td>
+                                <td data-label="Místo">Radiožurnál — rozhovor</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Média</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">22.–27. 8. 2024</td>
+                                <td data-label="Místo">Země živitelka Č. Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 9. 2024 (so)</td>
+                                <td data-label="Místo">Krajský aktiv — Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21.–25. 10. 2024</td>
+                                <td data-label="Místo">MŠ Stráž n. Než., MŠ Trhové Sviny, MŠ CB, ZŠ Hosin, MŠ Kostelec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3.–9. 11. 2024</td>
+                                <td data-label="Místo">ZO Týn n. Vlt., MŠ Kozlí, MŠ Nové Hrady, OO Písek</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 11. 2024 (ne)</td>
+                                <td data-label="Místo">ZO Velká Bíteš</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="lectures-links">
+                <p>📋 <a href="https://www.vcelarstvi.cz/dokumenty-cms/uc-pro-web-k-14-9-2020.pdf" target="_blank" rel="noopener">Seznam učitelů včelařství ČSV</a></p>
+                <p>🎓 <a href="https://www.souvnasavrky.cz/vzdelavani/vzdelavaci-akce-dle-nv-148-2019-sb/" target="_blank" rel="noopener">SOUv Nasavrky — vzdělávací akce</a></p>
+                <p>🍯 <a href="https://www.medovesnidane.cz/" target="_blank" rel="noopener">Projekt Medové snídaně — MZe</a></p>
+                <p>🎥 <a href="https://youtu.be/H-RtKhZTpzk" target="_blank" rel="noopener">Ukázka přednášek — Kolence 11</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ OCENĚNÍ ═══ -->
+    <section class="section" id="oceneni">
+        <div class="container">
+            <h2 class="section-title">Ocenění a média</h2>
+            <p class="section-subtitle">Publikace, vystoupení a soutěže</p>
+            <div class="awards-grid">
+                <div class="award-card" data-animate>
+                    <div class="award-icon">🏆</div>
+                    <h3>Zlatá včela</h3>
+                    <p>Pravidelný rozhodčí celostátního kola soutěže Zlatá včela — prestižní přehlídky mladých včelařů.</p>
+                </div>
+                <div class="award-card" data-animate>
+                    <div class="award-icon">📺</div>
+                    <h3>ČT24 — Regiony</h3>
+                    <p>Vystoupení v pořadu Regiony na ČT24 o včelařství v jižních Čechách.</p>
+                </div>
+                <div class="award-card" data-animate>
+                    <div class="award-icon">📻</div>
+                    <h3>Radiožurnál</h3>
+                    <p>Živý rozhovor na Radiožurnálu během výstavy Země živitelka (srpen 2024).</p>
+                </div>
+                <div class="award-card" data-animate>
+                    <div class="award-icon">📰</div>
+                    <h3>Časopis Včelařství</h3>
+                    <p>Pravidelný přispěvatel do odborného Časopisu Včelařství — desítky článků od roku 2017.</p>
+                </div>
+                <div class="award-card" data-animate>
+                    <div class="award-icon">🎪</div>
+                    <h3>Země živitelka</h3>
+                    <p>Hlavní organizátor včelařského stánku na největší zemědělské výstavě v ČR.</p>
+                </div>
+                <div class="award-card" data-animate>
+                    <div class="award-icon">🎓</div>
+                    <h3>Certifikovaný učitel</h3>
+                    <p>Učitel včelařství ČSV z.s. a SOUv Nasavrky. Absolvent tříletého studia oboru včelař.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section class="section section-dark" id="faq">
+        <div class="container">
+            <h2 class="section-title">Časté dotazy</h2>
+            <p class="section-subtitle">Odpovědi na nejčastější otázky</p>
+            <div class="faq-list">
+                <details class="faq-item" data-animate>
+                    <summary class="faq-question">Kde se nachází vaše včelstva?</summary>
+                    <div class="faq-answer"><p>Včelstva jsou umístěna v katastru obce Novosedly nad Nežárkou, nedaleko rybníka Rožmberk v CHKO Třeboňsko, v nadmořské výšce 480 metrů nad mořem. Jedná se o ekologicky čistou oblast bez průmyslového znečištění.</p></div>
+                </details>
+                <details class="faq-item" data-animate>
+                    <summary class="faq-question">Jak mohu objednat med nebo medovinu?</summary>
+                    <div class="faq-answer"><p>Objednávky přijímám telefonicky na čísle 777 269 269 nebo emailem na mpalecek@cst.cz. Osobní odběr je možný po domluvě na adrese v Jindřichově Hradci. Med zasílám i poštou.</p></div>
+                </details>
+                <details class="faq-item" data-animate>
+                    <summary class="faq-question">Jak správně skladovat med?</summary>
+                    <div class="faq-answer"><p>Med skladujte v uzavřených sklenicích při teplotě do 15 °C a vlhkosti do 60 %. Med vždy plníme do nových sklenic s novými víčky. Rozpouštění zkrystalizovaného medu nedoporučujeme — při překročení 45 °C dochází ke ztrátě cenných enzymů.</p></div>
+                </details>
+                <details class="faq-item" data-animate>
+                    <summary class="faq-question">Mohu si objednat přednášku pro naši organizaci?</summary>
+                    <div class="faq-answer"><p>Ano! Přednáším pro základní organizace ČSV, školy (v rámci projektu Medové snídaně), ale i pro firmy a spolky. Kontaktujte mě telefonicky nebo emailem a domluvíme termín. Přednášky mohu realizovat i u vás na chalupě v Kolencích.</p></div>
+                </details>
+                <details class="faq-item" data-animate>
+                    <summary class="faq-question">Jaký je rozdíl mezi květovým a lesním medem?</summary>
+                    <div class="faq-answer"><p>Květový med je světle hnědý, rychle krystalizuje (cca 14 dní u řepkového). Lesní (medovicový) med je tmavě hnědý, krystalizace trvá 3–4 měsíce a má vyšší obsah minerálních látek. Oba druhy jsou plné enzymů, vitamínů a aminokyselin.</p></div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ KONTAKT ═══ -->
+    <section class="section" id="kontakt">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            <p class="section-subtitle">Ozvěte se mi</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        <div>
+                            <strong>Telefon</strong>
+                            <a href="tel:+420777269269">777 269 269</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:mpalecek@cst.cz">mpalecek@cst.cz</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <div>
+                            <strong>Adresa</strong>
+                            <span>Nuslova 42/V, 377 01 Jindřichův Hradec</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+                        <div>
+                            <strong>IČO</strong>
+                            <span>08962847</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        <div>
+                            <strong>Místo přednášek</strong>
+                            <span>Kolence 11 (chalupa)</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-wz-contact>
+                    <div class="form-group">
+                        <label for="name">Jméno</label>
+                        <input type="text" id="name" name="name" required placeholder="Vaše jméno">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="vas@email.cz">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+420 000 000 000">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Zpráva</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Napište mi — objednávka, přednáška, dotaz..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Odeslat zprávu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <strong>🐝 Včelařství Paleček</strong>
+                    <p>Kvalitní český med a včelí produkty z CHKO Třeboňsko</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#o-mne">O mně</a>
+                    <a href="#produkty">Produkty</a>
+                    <a href="#prednasky">Přednášky</a>
+                    <a href="#kontakt">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Včelařství Paleček. Všechna práva vyhrazena. IČO: 08962847</p>
+                <p class="footer-credit">Web vytvořil <a href="https://webzitra.cz" target="_blank" rel="noopener">WebZítra</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══ COOKIE BANNER ═══ -->
+    <div class="cookie-banner" id="cookie-banner" hidden>
+        <p>Tento web používá cookies pro zajištění nejlepšího zážitku.</p>
+        <div class="cookie-actions">
+            <button class="btn btn-small btn-primary" id="cookie-accept">Přijmout</button>
+            <button class="btn btn-small btn-outline" id="cookie-reject">Odmítnout</button>
+        </div>
+    </div>
+
+    <noscript><style>[data-animate]{opacity:1;transform:none}</style></noscript>
+    <script src="js/main.js"></script>
+</body>
+</html>

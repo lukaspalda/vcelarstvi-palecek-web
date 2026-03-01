@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wz-vcelarstvi-palecek.netlify.app/sitemap.xml
