@@ -88,6 +88,12 @@
                     <a href="#produkty" class="btn btn-primary">Naše produkty</a>
                     <a href="#prednasky" class="btn btn-outline">Přednášky 2026</a>
                 </div>
+                <div class="hero-video">
+                    <div class="video-container">
+                        <iframe src="https://drive.google.com/file/d/18BPiw5Ac4dN9-nzbKHvVqhb4umL2D6R9/preview" title="Včelařství Paleček — video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <p class="video-caption">🎬 Video z našeho včelařství</p>
+                </div>
                 <div class="hero-stats">
                     <div class="hero-stat">
                         <strong>17+</strong>
@@ -132,7 +138,7 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="https://placehold.co/600x400/D4A843/ffffff?text=Martin+Pale%C4%8Dek" alt="Martin Paleček — včelař" loading="lazy" width="600" height="400">
+                    <img src="img/martin-photo1.jpg" alt="Martin Paleček — včelař a lektor" loading="lazy" width="600" height="400">
                 </div>
             </div>
         </div>
@@ -145,42 +151,42 @@
             <p class="section-subtitle">Přímo od včelaře z&nbsp;CHKO Třeboňsko</p>
             <div class="products-grid">
                 <div class="product-card" data-animate>
-                    <div class="product-icon">🍯</div>
+                    <div class="product-image"><img src="img/honey-flower.jpg" alt="Květový med" loading="lazy"></div>
                     <h3>Květový med</h3>
                     <p class="product-desc">Světle hnědý med s&nbsp;jemnou chutí. Po krystalizaci nabývá žlutého odstínu. Bohatý na enzymy, vitamíny a&nbsp;minerály.</p>
                     <div class="product-price">180 Kč/kg</div>
                     <span class="product-status available">Skladem</span>
                 </div>
                 <div class="product-card" data-animate>
-                    <div class="product-icon">🌲</div>
+                    <div class="product-image"><img src="img/honey-forest.jpg" alt="Lesní med" loading="lazy"></div>
                     <h3>Lesní med</h3>
                     <p class="product-desc">Tmavě hnědý medovicový med. Krystalizace trvá 3–4 měsíce. Výrazná chuť s&nbsp;vyšším obsahem minerálů.</p>
                     <div class="product-price">180 Kč/kg</div>
                     <span class="product-status soldout">Vyprodáno</span>
                 </div>
                 <div class="product-card" data-animate>
-                    <div class="product-icon">🧈</div>
+                    <div class="product-image"><img src="img/honey-paste.jpg" alt="Pastový med" loading="lazy"></div>
                     <h3>Pastový med</h3>
                     <p class="product-desc">Med s&nbsp;řízenou krystalizací — krémová konzistence, snadné roztírání. Jemný a&nbsp;lahodný na chuť.</p>
                     <div class="product-price">200 Kč/kg</div>
                     <span class="product-status soldout">Vyprodáno</span>
                 </div>
                 <div class="product-card" data-animate>
-                    <div class="product-icon">🍷</div>
+                    <div class="product-image"><img src="img/medovina-05l.jpg" alt="Medovina" loading="lazy"></div>
                     <h3>Medovina</h3>
                     <p class="product-desc">Ryze přírodní medové víno bez barviv. Vyráběna z&nbsp;kvalitního včelího medu z&nbsp;CHKO Třeboňsko.</p>
                     <div class="product-price">od 90 Kč / 0,5 l</div>
                     <span class="product-status available">Skladem</span>
                 </div>
                 <div class="product-card" data-animate>
-                    <div class="product-icon">💊</div>
+                    <div class="product-image"><img src="img/propolis1.jpg" alt="Propolis" loading="lazy"></div>
                     <h3>Propolis</h3>
                     <p class="product-desc">Propolisová tinktura v&nbsp;60% lihu. Přírodní antibiotikum s&nbsp;protizánětlivými účinky. Vlastní výroba.</p>
                     <div class="product-price">Na dotaz</div>
                     <span class="product-status available">Skladem</span>
                 </div>
                 <div class="product-card" data-animate>
-                    <div class="product-icon">🕯️</div>
+                    <div class="product-image"><img src="img/candle2.jpg" alt="Voskové svíčky" loading="lazy"></div>
                     <h3>Voskové svíčky</h3>
                     <p class="product-desc">Ručně odlévané svíčky z&nbsp;čistého včelího vosku. Krásná vůně a&nbsp;dlouhá doba hoření.</p>
                     <div class="product-price">Dle velikosti</div>
@@ -222,13 +228,7 @@
                 </h3>
                 <div class="lecture-table-wrapper">
                     <table class="lecture-table">
-                        <thead>
-                            <tr>
-                                <th>Datum</th>
-                                <th>Místo</th>
-                                <th>Typ</th>
-                            </tr>
-                        </thead>
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
                         <tbody>
                             <tr>
                                 <td data-label="Datum">1. 2. 2026 (ne)</td>
@@ -277,18 +277,13 @@
 
             <!-- Rok 2025 -->
             <div class="lecture-year" data-animate>
-                <h3 class="year-title">
+                <h3 class="year-title year-toggle">
                     <span class="year-number">2025</span>
+                    <span class="year-expand">Skrýt ▴</span>
                 </h3>
                 <div class="lecture-table-wrapper">
                     <table class="lecture-table">
-                        <thead>
-                            <tr>
-                                <th>Datum</th>
-                                <th>Místo</th>
-                                <th>Typ</th>
-                            </tr>
-                        </thead>
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
                         <tbody>
                             <tr>
                                 <td data-label="Datum">12. 1. 2025 (ne)</td>
@@ -306,8 +301,13 @@
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">22. 2. 2025 (so)</td>
-                                <td data-label="Místo">ZO Strmilov / ZO Studená</td>
+                                <td data-label="Datum">22. 2. 2025 (so) odpo</td>
+                                <td data-label="Místo">ZO Strmilov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">22. 2. 2025 (so) dopo</td>
+                                <td data-label="Místo">ZO Studená</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
                             <tr>
@@ -317,7 +317,7 @@
                             </tr>
                             <tr>
                                 <td data-label="Datum">26. 4. 2025 (so)</td>
-                                <td data-label="Místo">Č. Budějovice</td>
+                                <td data-label="Místo">České Budějovice</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — OK</span></td>
                             </tr>
                             <tr>
@@ -327,48 +327,108 @@
                             </tr>
                             <tr>
                                 <td data-label="Datum">14.–18. 5. 2025</td>
-                                <td data-label="Místo">Czech Food Expo Č. Budějovice</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                                <td data-label="Místo">Czech Food Expo České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Czech Food Expo</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">26.–29. 5. 2025</td>
-                                <td data-label="Místo">MŠ Dušejov, ZŠ Majdalena, MŠ Hartíkovice, MŠ Jihlava</td>
+                                <td data-label="Datum">26. 5. 2025 (po)</td>
+                                <td data-label="Místo">MŠ Dušejov, okr. Jihlava</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">27. 5. 2025 (út)</td>
+                                <td data-label="Místo">ZŠ a MŠ Majdalena, okr. J. Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">28. 5. 2025 (st)</td>
+                                <td data-label="Místo">MŠ Hartíkovice, okr. Třebíč</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 5. 2025 (čt)</td>
+                                <td data-label="Místo">MŠ Jihlava, Nad Plovárnou 5</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
                             </tr>
                             <tr>
                                 <td data-label="Datum">5.–8. 6. 2025</td>
                                 <td data-label="Místo">Celostátní kolo Zlaté včely</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Rozhodčí</span></td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — rozhodčí</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">11.–12. 6. 2025</td>
-                                <td data-label="Místo">MŠ Sedmikráska Č. Budějovice</td>
+                                <td data-label="Datum">Červen 2025</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 6. 2025 (st)</td>
+                                <td data-label="Místo">MŠ Sedmikráska České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">12. 6. 2025 (čt)</td>
+                                <td data-label="Místo">MŠ Sedmikráska České Budějovice</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
                             </tr>
                             <tr>
                                 <td data-label="Datum">20.–26. 8. 2025</td>
-                                <td data-label="Místo">Země živitelka Č. Budějovice</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                                <td data-label="Místo">Země živitelka České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Země živitelka</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">16.–18. 9. 2025</td>
-                                <td data-label="Místo">ZŠ Zimutice, MŠ Nadějkov, MŠ Nové Dvory</td>
+                                <td data-label="Datum">16. 9. 2025 (út)</td>
+                                <td data-label="Místo">ZŠ a MŠ Zimutice, okr. Č. B.</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">4.–5. 10. 2025</td>
-                                <td data-label="Místo">ZO Batelov, Krajský aktiv Dubné</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Organizátor</span></td>
-                            </tr>
-                            <tr>
-                                <td data-label="Datum">8.–10. 10. 2025</td>
-                                <td data-label="Místo">ZŠ Sezimovo Ústí, MŠ Okrouhlice</td>
+                                <td data-label="Datum">17. 9. 2025 (st)</td>
+                                <td data-label="Místo">MŠ Nadějkov, okr. Tábor</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">11.–12. 10. 2025</td>
-                                <td data-label="Místo">ZO Rataje n. Sáz., ZO Počátky — Kolence</td>
+                                <td data-label="Datum">18. 9. 2025 (čt)</td>
+                                <td data-label="Místo">MŠ Nové Dvory — Nížkov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Říjen 2025</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 10. 2025 (so)</td>
+                                <td data-label="Místo">ZO Batelov — Kolence</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">5. 10. 2025 (ne)</td>
+                                <td data-label="Místo">Krajský aktiv — Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8. 10. 2025 (čt)</td>
+                                <td data-label="Místo">ZŠ Sezimovo Ústí 2, okr. Tábor</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">10. 10. 2025 (čt)</td>
+                                <td data-label="Místo">MŠ Okrouhlice, okr. H. Brod</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 10. 2025 (so)</td>
+                                <td data-label="Místo">ZO Rataje nad Sázavou — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">12. 10. 2025 (ne)</td>
+                                <td data-label="Místo">ZO Počátky — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Listopad 2025</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
                             </tr>
                             <tr>
                                 <td data-label="Datum">29. 11. 2025 (pá)</td>
@@ -379,6 +439,11 @@
                                 <td data-label="Datum">7. 12. 2025 (ne)</td>
                                 <td data-label="Místo">ZO Vlašim</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Prosinec 2025</td>
+                                <td data-label="Místo">Časopis Včelařství (2x)</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -393,13 +458,7 @@
                 </h3>
                 <div class="lecture-table-wrapper lecture-hidden">
                     <table class="lecture-table">
-                        <thead>
-                            <tr>
-                                <th>Datum</th>
-                                <th>Místo</th>
-                                <th>Typ</th>
-                            </tr>
-                        </thead>
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
                         <tbody>
                             <tr>
                                 <td data-label="Datum">17. 2. 2024 (so)</td>
@@ -417,52 +476,182 @@
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
                             <tr>
+                                <td data-label="Datum">25. 2. 2024 (ne)</td>
+                                <td data-label="Místo">ZO Velké Meziříčí</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
                                 <td data-label="Datum">9. 3. 2024 (so)</td>
                                 <td data-label="Místo">ZO Mladošovice</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
                             <tr>
+                                <td data-label="Datum">21. 3. 2024 (čt)</td>
+                                <td data-label="Místo">ZO Slavkov u Brna</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 3. 2024 (ne)</td>
+                                <td data-label="Místo">ZO Dírná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">28. 3. 2024 (čt)</td>
+                                <td data-label="Místo">Ochrana fauny Sedlčany</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">6. 4. 2024 (so)</td>
+                                <td data-label="Místo">ZO Velesín — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 4. 2024 (ne)</td>
+                                <td data-label="Místo">ZO Soběslav — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">13. 4. 2024 (so)</td>
+                                <td data-label="Místo">ZO Žďár nad Sázavou — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
                                 <td data-label="Datum">9.–12. 5. 2024</td>
-                                <td data-label="Místo">Czech Food Expo Č. Budějovice</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                                <td data-label="Místo">Czech Food Expo České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Czech Food Expo</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">21.–23. 5. 2024</td>
-                                <td data-label="Místo">ZŠ Český Krumlov, ZŠ Máj ČB, MŠ Trhové Sviny</td>
+                                <td data-label="Datum">21. 5. 2024 (út)</td>
+                                <td data-label="Místo">ZŠ Český Krumlov</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">28.–31. 5. 2024</td>
-                                <td data-label="Místo">MŠ/ZŠ Bambi Humpolec, MŠ Na Rybníčku</td>
+                                <td data-label="Datum">22. 5. 2024 (st)</td>
+                                <td data-label="Místo">ZŠ Máj České Budějovice</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">23. 8. 2024</td>
-                                <td data-label="Místo">Radiožurnál — rozhovor</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Média</span></td>
+                                <td data-label="Datum">23. 5. 2024 (čt)</td>
+                                <td data-label="Místo">MŠ Trhové Sviny</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">28. 5. 2024 (út)</td>
+                                <td data-label="Místo">MŠ, ZŠ Bambi Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">31. 5. 2024 (pá)</td>
+                                <td data-label="Místo">MŠ Na Rybníčku Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Červen 2024</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">17. 6. 2024 (po)</td>
+                                <td data-label="Místo">MŠ Na Skalce Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 6. 2024 (út)</td>
+                                <td data-label="Místo">ZŠ Dačice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 6. 2024 (út)</td>
+                                <td data-label="Místo">ZO Havlíčkův Brod</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Srpen 2024</td>
+                                <td data-label="Místo">Radiožurnál</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Rozhovor</span></td>
                             </tr>
                             <tr>
                                 <td data-label="Datum">22.–27. 8. 2024</td>
-                                <td data-label="Místo">Země živitelka Č. Budějovice</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                                <td data-label="Místo">Země živitelka České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Země živitelka</span></td>
                             </tr>
                             <tr>
                                 <td data-label="Datum">14. 9. 2024 (so)</td>
                                 <td data-label="Místo">Krajský aktiv — Dubné</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-event">Hlavní organizátor</span></td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">21.–25. 10. 2024</td>
-                                <td data-label="Místo">MŠ Stráž n. Než., MŠ Trhové Sviny, MŠ CB, ZŠ Hosin, MŠ Kostelec</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                                <td data-label="Datum">Říjen 2024</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">3.–9. 11. 2024</td>
-                                <td data-label="Místo">ZO Týn n. Vlt., MŠ Kozlí, MŠ Nové Hrady, OO Písek</td>
+                                <td data-label="Datum">5. 10. 2024 (so)</td>
+                                <td data-label="Místo">OO Žďár nad Sázavou — Kolence</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">24. 11. 2024 (ne)</td>
+                                <td data-label="Datum">15. 10. 2024 (út)</td>
+                                <td data-label="Místo">ZO Havlíčkův Brod</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21. 10. 2024 (po)</td>
+                                <td data-label="Místo">MŠ Stráž nad Nežárkou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">22. 10. 2024 (út)</td>
+                                <td data-label="Místo">MŠ Žár Trhové Sviny</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 10. 2024 (st)</td>
+                                <td data-label="Místo">MŠ U Pramene České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 10. 2024 (čt)</td>
+                                <td data-label="Místo">ZŠ a MŠ Hosín</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 10. 2024 (pá)</td>
+                                <td data-label="Místo">MŠ Kostelec, Kostelec u Jihlavy</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">31. 10. 2024 (čt)</td>
+                                <td data-label="Místo">MŠ Nový Rychnov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Listopad 2024</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 11. 2024 (ne)</td>
+                                <td data-label="Místo">ZO Týn nad Vltavou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 11. 2024 (po)</td>
+                                <td data-label="Místo">MŠ Kozlí</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">5. 11. 2024 (út)</td>
+                                <td data-label="Místo">MŠ Nové Hrady</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9. 11. 2024 (so)</td>
+                                <td data-label="Místo">OO Písek</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 11. 2024 (so)</td>
                                 <td data-label="Místo">ZO Velká Bíteš</td>
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
@@ -470,6 +659,892 @@
                     </table>
                 </div>
             </div>
+
+            <!-- Rok 2023 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2023</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">29. 1. 2023 (ne)</td>
+                                <td data-label="Místo">ZO Rožná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 2. 2023 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 2. 2023 (so)</td>
+                                <td data-label="Místo">ZO Strmilov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 3. 2023 (so)</td>
+                                <td data-label="Místo">ZO Lhenice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 3. 2023 (so)</td>
+                                <td data-label="Místo">ZO Čerčany</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">15. 4. 2023 (so)</td>
+                                <td data-label="Místo">ZO Nová Včelnice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">16. 4. 2023 (ne)</td>
+                                <td data-label="Místo">ZO Chýnov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 4. 2023 (ne)</td>
+                                <td data-label="Místo">ZO Lišov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8.–11. 6. 2023</td>
+                                <td data-label="Místo">Zlatá včela Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — rozhodčí</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 6. 2023 (st)</td>
+                                <td data-label="Místo">MŠ Volary</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">15. 6. 2023 (čt)</td>
+                                <td data-label="Místo">MŠ Hospříz</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21. 6. 2023 (st)</td>
+                                <td data-label="Místo">ZŠ Povážská Strakonice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24.–29. 8. 2023</td>
+                                <td data-label="Místo">Země živitelka České Budějovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Země živitelka</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 9. 2023 (so)</td>
+                                <td data-label="Místo">Krajský aktiv — Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Říjen 2023</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">16. 10. 2023 (po)</td>
+                                <td data-label="Místo">ZŠ Počátky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">17. 10. 2023 (út)</td>
+                                <td data-label="Místo">MŠ Pavlsko</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 10. 2023 (st)</td>
+                                <td data-label="Místo">MŠ Jindřichův Hradec Hvězdárna</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">19. 10. 2023 (čt)</td>
+                                <td data-label="Místo">MŠ, ZŠ Besednice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20. 10. 2023 (pá)</td>
+                                <td data-label="Místo">MŠ Týn nad Vltavou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 10. 2023 (st)</td>
+                                <td data-label="Místo">MŠ Košetice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">30. 10. 2023 (po)</td>
+                                <td data-label="Místo">MŠ, ZŠ Hořepník</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">31. 10. 2023 (út)</td>
+                                <td data-label="Místo">MŠ České Budějovice Královská</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Listopad 2023</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 12. 2023 (so)</td>
+                                <td data-label="Místo">ZO Tučapy</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2022 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2022</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">12. 3. 2022 (so)</td>
+                                <td data-label="Místo">ZO Čerčany</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">30. 4. 2022 (so)</td>
+                                <td data-label="Místo">ZO Nová Bystřice — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">19.–22. 5. 2022</td>
+                                <td data-label="Místo">Zlatá včela Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — rozhodčí</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9.–12. 6. 2022</td>
+                                <td data-label="Místo">Zlatá včela Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — rozhodčí</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">15. 6. 2022 (st)</td>
+                                <td data-label="Místo">SOU zemědělské Třeboň</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 6. 2022 (čt)</td>
+                                <td data-label="Místo">Jihočeská hospodářská komora — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 9. 2022 (so)</td>
+                                <td data-label="Místo">Krajský aktiv — Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">13. 10. 2022 (čt)</td>
+                                <td data-label="Místo">MŠ a ZŠ Nová Cerekev</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 10. 2022 (pá)</td>
+                                <td data-label="Místo">1. ZŠ TGM Milevsko</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20. 10. 2022 (čt)</td>
+                                <td data-label="Místo">ZŠ Povážská Strakonice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21. 10. 2022 (pá)</td>
+                                <td data-label="Místo">MŠ Plavsko</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">22. 10. 2022 (so)</td>
+                                <td data-label="Místo">SOUv Nasavrky VKM</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 11. 2022 (st)</td>
+                                <td data-label="Místo">MŠ Český Krumlov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20. 11. 2022 (ne)</td>
+                                <td data-label="Místo">ZO Počátky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 11. 2022 (pá)</td>
+                                <td data-label="Místo">ZO Liberec-Vratislavice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2021 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2021</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">12. 6. 2021 (so)</td>
+                                <td data-label="Místo">ZO Vlachovo Březí — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 9. 2021 (so)</td>
+                                <td data-label="Místo">Krajský aktiv — Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 9. 2021 (pá)</td>
+                                <td data-label="Místo">Spolek přátel Třeboně — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 9. 2021 (st)</td>
+                                <td data-label="Místo">Jihočeská hospodářská komora — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9. 10. 2021 (so)</td>
+                                <td data-label="Místo">OO Benešov — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 10. 2021 (so)</td>
+                                <td data-label="Místo">VKM ČSV — Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8. 11. 2021 (po)</td>
+                                <td data-label="Místo">MŠ Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9. 11. 2021 (út)</td>
+                                <td data-label="Místo">ZŠ Strakonice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">10. 11. 2021 (st)</td>
+                                <td data-label="Místo">MŠ, ZŠ Cejov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 11. 2021 (čt)</td>
+                                <td data-label="Místo">Jihočeská hospodářská komora — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">22. 11. 2021 (po)</td>
+                                <td data-label="Místo">MŠ Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2020 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2020</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">25. 1. 2020 (so)</td>
+                                <td data-label="Místo">ZO Mladošovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">16. 2. 2020 (ne)</td>
+                                <td data-label="Místo">ZO Bystřice nad Pernštejnem</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 2. 2020 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">1. 3. 2020 (ne)</td>
+                                <td data-label="Místo">ZO Pacov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 3. 2020 (so)</td>
+                                <td data-label="Místo">ZO Bechyně</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8. 3. 2020 (ne)</td>
+                                <td data-label="Místo">ZO Jaroměřice nad Rokytnou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">5. 9. 2020 (so)</td>
+                                <td data-label="Místo">Krajský aktiv — Dubné</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 10. 2020 (so)</td>
+                                <td data-label="Místo">SOUv Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20. 11. 2020 (pá)</td>
+                                <td data-label="Místo">SOUv Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2019 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2019</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">26. 1. 2019 (so)</td>
+                                <td data-label="Místo">ZO Novosedly nad Nežárkou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 2. 2019 (so)</td>
+                                <td data-label="Místo">ZO Deštná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 2. 2019 (ne)</td>
+                                <td data-label="Místo">ZO Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">21. 2. 2019 (čt)</td>
+                                <td data-label="Místo">OO Tábor</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">27. 2. 2019 (st)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2. 3. 2019 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 3. 2019 (ne)</td>
+                                <td data-label="Místo">ZO Velké Meziříčí</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">10. 3. 2019 (ne)</td>
+                                <td data-label="Místo">ZO Lomnice nad Lužnicí</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">16. 3. 2019 (so)</td>
+                                <td data-label="Místo">OO Písek</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">17. 3. 2019 (ne)</td>
+                                <td data-label="Místo">ZO Milevsko</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 4. 2019 (čt)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 4. 2019 (ne)</td>
+                                <td data-label="Místo">ZO Velká Bíteš / ZO Humpolec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">6.–9. 6. 2019</td>
+                                <td data-label="Místo">Zlatá včela Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — rozhodčí</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 8. 2019 (ne)</td>
+                                <td data-label="Místo">Země živitelka</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Země živitelka</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 9. 2019 (so)</td>
+                                <td data-label="Místo">Krajský aktiv — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Krajský aktiv — organizátor</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 9. 2019 (so)</td>
+                                <td data-label="Místo">Spolek přátel Třeboně — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 10. 2019 (pá)</td>
+                                <td data-label="Místo">ZO Vlašim — Kolence</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 11. 2019 (ne)</td>
+                                <td data-label="Místo">ZO Kunštát</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 11. 2019 (pá)</td>
+                                <td data-label="Místo">ZO Nová Bystřice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Listopad 2019</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2018 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2018</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">Leden 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 1. 2018 (čt)</td>
+                                <td data-label="Místo">OO Tábor</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Únor 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 2. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Třeboň</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 2. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Deštná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 2. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Vlašim</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Březen 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 3. 2018 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 3. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Počátky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">10. 3. 2018 (so)</td>
+                                <td data-label="Místo">ZO Slavonice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 3. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Lomnice nad Lužnicí</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 3. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Chýnov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 3. 2018 (so)</td>
+                                <td data-label="Místo">ZO Prachatice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">31. 3. 2018 (so)</td>
+                                <td data-label="Místo">ZO Strmilov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Duben 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">8. 4. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Chlum u Třeboně</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Květen 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 5. 2018 (po)</td>
+                                <td data-label="Místo">ČZS Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24.–27. 5. 2018</td>
+                                <td data-label="Místo">Zlatá včela Nasavrky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-event">Zlatá včela — rozhodčí</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Červen 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">12. 6. 2018 (út)</td>
+                                <td data-label="Místo">Zemědělské učiliště Třeboň</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Červenec 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Srpen 2018</td>
+                                <td data-label="Místo">Časopis Včelařství + Země živitelka</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span> <span class="lecture-badge badge-event">Země živitelka</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Září 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 9. 2018 (út)</td>
+                                <td data-label="Místo">ZŠ a MŠ Černovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">19. 9. 2018 (st)</td>
+                                <td data-label="Místo">ZŠ a MŠ Božejov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">20. 9. 2018 (čt)</td>
+                                <td data-label="Místo">ZŠ a MŠ Vyskytná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 9. 2018 (út)</td>
+                                <td data-label="Místo">ZŠ Pelhřimov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Říjen 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Listopad 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 11. 2018 (pá)</td>
+                                <td data-label="Místo">ZO Nová Bystřice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 11. 2018 (ne)</td>
+                                <td data-label="Místo">ZO Počátky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">Prosinec 2018</td>
+                                <td data-label="Místo">Časopis Včelařství</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-media">Článek</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 12. 2018 (pá)</td>
+                                <td data-label="Místo">ZO Pacov</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 12. 2018 (út)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2017 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2017</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">28. 1. 2017 (so)</td>
+                                <td data-label="Místo">ZO Kardašova Řečice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">29. 1. 2017 (ne)</td>
+                                <td data-label="Místo">ZO Jistebnice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2017</td>
+                                <td data-label="Místo">ZO Pleše</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">5. 2. 2017 (ne)</td>
+                                <td data-label="Místo">ZO Dírná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">2017</td>
+                                <td data-label="Místo">ZO Tučapy</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">25. 2. 2017 (so)</td>
+                                <td data-label="Místo">ZO Soběslav</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 3. 2017 (so)</td>
+                                <td data-label="Místo">ZO Studená</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">5. 3. 2017 (ne)</td>
+                                <td data-label="Místo">ZO Třešť</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9. 3. 2017 (čt)</td>
+                                <td data-label="Místo">ZO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">11. 3. 2017 (so)</td>
+                                <td data-label="Místo">ZO Dírná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">26. 3. 2017 (so)</td>
+                                <td data-label="Místo">ZO Slavonice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">6. 4. 2017 (čt)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">9. 4. 2017 (ne)</td>
+                                <td data-label="Místo">ZO Mladošovice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 9. 2017 (so)</td>
+                                <td data-label="Místo">ZO Prachatice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 10. 2017 (so)</td>
+                                <td data-label="Místo">ZO Kolín</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">7. 11. 2017 (út)</td>
+                                <td data-label="Místo">OO Tábor</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">10. 11. 2017 (pá)</td>
+                                <td data-label="Místo">ZŠ Počátky</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">23. 11. 2017 (čt)</td>
+                                <td data-label="Místo">ZŠ Košetice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 11. 2017 (pá)</td>
+                                <td data-label="Místo">ZŠ Košetice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-honey">Medové snídaně</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">26. 11. 2017 (ne)</td>
+                                <td data-label="Místo">ZO Vlachovo Březí</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 12. 2017 (čt)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2016 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2016</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">7. 2. 2016 (so)</td>
+                                <td data-label="Místo">ZO Deštná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">13. 2. 2016 (so)</td>
+                                <td data-label="Místo">ZO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 2. 2016 (ne)</td>
+                                <td data-label="Místo">ZO Třeboň</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">18. 2. 2016 (čt)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">6. 3. 2016 (so)</td>
+                                <td data-label="Místo">ZO Deštná</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">19. 3. 2016 (so)</td>
+                                <td data-label="Místo">ZO Dačice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">3. 4. 2016 (ne)</td>
+                                <td data-label="Místo">ZO Novosedly nad Nežárkou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">4. 5. 2016 (st)</td>
+                                <td data-label="Místo">ZO Novosedly nad Nežárkou</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">19. 5. 2016 (čt)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 5. 2016 (út)</td>
+                                <td data-label="Místo">Zemědělské učiliště Třeboň</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">14. 10. 2016 (pá)</td>
+                                <td data-label="Místo">MŠ Pluhův Žďár</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">24. 11. 2016 (so)</td>
+                                <td data-label="Místo">ZO Nová Včelnice</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Datum">12. 12. 2016 (po)</td>
+                                <td data-label="Místo">OO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Rok 2015 -->
+            <div class="lecture-year collapsed" data-animate>
+                <h3 class="year-title year-toggle">
+                    <span class="year-number">2015</span>
+                    <span class="year-expand">Zobrazit ▾</span>
+                </h3>
+                <div class="lecture-table-wrapper lecture-hidden">
+                    <table class="lecture-table">
+                        <thead><tr><th>Datum</th><th>Místo</th><th>Typ</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Datum">15. 10. 2015 (čt)</td>
+                                <td data-label="Místo">ZO Jindřichův Hradec</td>
+                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
 
             <div class="lectures-links">
                 <p>📋 <a href="https://www.vcelarstvi.cz/dokumenty-cms/uc-pro-web-k-14-9-2020.pdf" target="_blank" rel="noopener">Seznam učitelů včelařství ČSV</a></p>
