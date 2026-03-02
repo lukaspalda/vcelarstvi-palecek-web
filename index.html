@@ -252,10 +252,15 @@
                                 <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Datum">6. 2. 2026 (pá)</td>
-                                <td data-label="Místo">ZO Chotoviny</td>
-                                <td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
-                            </tr>
+<td data-label="Datum">2. 2. 2026 (ne)</td>
+<td data-label="Místo">ZO Studená</td>
+<td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+</tr>
+<tr>
+<td data-label="Datum">6. 2. 2026 (pá)</td>
+<td data-label="Místo">ZO Chotoviny</td>
+<td data-label="Typ"><span class="lecture-badge badge-edu">Vzdělávací akce</span></td>
+</tr>
                             <tr>
                                 <td data-label="Datum">21. 2. 2026 (so)</td>
                                 <td data-label="Místo">ZO Studená</td>
@@ -1971,5 +1976,28 @@
 
     <noscript><style>[data-animate]{opacity:1;transform:none}</style></noscript>
     <script src="js/main.js"></script>
+<!-- WZ-ANALYTICS-START -->
+<script>(function(){if(window.top!==window.self)return;var c='vcelarstvi-palecek',u='https://webzitra.cz/api/client-analytics';
+var s=sessionStorage,k='wz_sid',sid=s.getItem(k);if(!sid){sid=Math.random().toString(36).slice(2)+Math.random().toString(36).slice(2);s.setItem(k,sid)}
+var pk='wz_lp',lk='wz_lt',lp=s.getItem(pk),lt=+(s.getItem(lk)||0);
+if(lp===location.pathname&&Date.now()-lt<5000)return;s.setItem(pk,location.pathname);s.setItem(lk,Date.now());
+var d=/Mobi|Android/i.test(navigator.userAgent)?'m':/Tablet|iPad/i.test(navigator.userAgent)?'t':'d';
+var r='direct';try{if(document.referrer){var h=new URL(document.referrer).hostname;if(h&&h!==location.hostname)r=h}}catch(e){}
+navigator.sendBeacon(u,JSON.stringify({s:c,p:location.pathname,r:r,d:d,sid:sid}))})();</script>
+<!-- WZ-ANALYTICS-END -->
+<!-- WZ-LEADS-START -->
+<script>(function(){var u='https://webzitra.cz/api/client-leads';
+document.querySelectorAll('form[data-wz-contact]').forEach(function(f){
+f.addEventListener('submit',function(e){e.preventDefault();
+var d={siteId:'vcelarstvi-palecek'};var btn=f.querySelector('[type=submit]');
+f.querySelectorAll('input,textarea,select').forEach(function(i){if(i.name&&i.value)d[i.name]=i.value.substring(0,500)});
+d.page=location.pathname;
+if(btn)btn.disabled=true;
+fetch(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)})
+.then(function(r){return r.json()}).then(function(j){
+if(j.success){f.innerHTML='<div style="text-align:center;padding:24px;color:#22c55e;font-weight:600">Odesláno! Brzy se Vám ozveme.</div>'}
+else{alert(j.error||'Odeslání selhalo.');if(btn)btn.disabled=false}
+}).catch(function(){alert('Odeslání selhalo. Zkuste to prosím znovu.');if(btn)btn.disabled=false})})})})();</script>
+<!-- WZ-LEADS-END -->
 </body>
 </html>
