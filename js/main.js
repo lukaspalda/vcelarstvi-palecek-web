@@ -212,21 +212,14 @@
 
     function hideBanner() {
         if (banner) {
-            banner.style.opacity = '0';
-            banner.style.transform = 'translateY(20px)';
-            setTimeout(function() { banner.hidden = true; }, 300);
+            banner.classList.remove('visible');
         }
     }
 
     if (banner) {
         var consent = localStorage.getItem('cookies-consent');
         if (!consent) {
-            banner.hidden = false;
-            // Small delay so animation works
-            setTimeout(function() {
-                banner.style.opacity = '1';
-                banner.style.transform = 'translateY(0)';
-            }, 500);
+            setTimeout(function() { banner.classList.add('visible'); }, 500);
         }
     }
     if (acceptBtn) {
